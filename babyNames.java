@@ -213,115 +213,31 @@ public class babyNames {
 	    }
 	    
 	    
-	    //QUIZ
-	    
-	    public void QA_testGetRank() {
-	        int year = 1960;
-	        String name = "Emily";
-	        String gender = "F";
-	        
-	        int rank = getRank(year, name, gender);
-	        System.out.println(name + " rank is " + rank);
-	        
-	        year = 1971;
-	        name = "Frank";
-	        gender = "M";
-	        
-	        rank = getRank(year, name, gender);
-	        System.out.println(name + " rank is " + rank);
-	    }
-	    
-	    public void QB_testGetNameRank() {
-	        int year = 1980;
-	        int rank = 350;
-	        String gender = "F";
-	        
-	        String name = getName(year, rank, gender);
-	        System.out.println("In " + year + " rank " + rank + " is " + name);
-	        
-	        
-	        year = 1982;
-	        rank = 450;
-	        gender = "M";
-	        
-	        name = getName(year, rank, gender);
-	        System.out.println("In " + year + " rank " + rank + " is " + name);
-	    }
-	    
-	    public void QC_testWhatIsNameInYear() {
-	        whatIsNameInYear("Susan", 1972, 2014, "F");
-	        
-	        whatIsNameInYear("Owen", 1974, 2014, "M");
-	    }
-	    
-	    public void QD_testYearOfHighestRank() {
-	        String name = "Genevieve";
-	        String gender = "F";
-	        System.out.println(name + " most popular year is " + yearOfHighestRank(name, gender));
-	        
-	        name = "Mich";
-	        gender = "M";
-	        System.out.println(name + " most popular year is " + yearOfHighestRank(name, gender));
-	    }
-	    
-	    
-	    public void QE_testGetAverageRank() {
-	        String name = "Susan";
-	        String gender = "F";
-	        System.out.println("Average rank for " + name + " is " + getAverageRank(name, gender));
-	        
-	        name = "Robert";
-	        gender = "M";
-	        System.out.println("Average rank for " + name + " is " + getAverageRank(name, gender));
-	    }
-	    
-	    public void QF_testGetTotalBirthsRankedHigher() {
-	        int year = 1990 ;
-	        String name = "Emily";
-	        String gender = "F";
-	        System.out.println("Total births higher than " + name + " is " + getTotalBirthsRankedHigher(year, name, gender));
-	        
-	        year = 1990 ;
-	        name = "Drew";
-	        gender = "M";
-	        System.out.println("Total births higher than " + name + " is " + getTotalBirthsRankedHigher(year, name, gender));
-	    
-	    }	
-	
-	
 
 	public static void main(String[] args) {
 		
 		babyNames pr = new babyNames();
 		
-		//pr.testTotalBirths(); // 2225, us_babynames_by_year: yob1900.csv
-        //pr.testTotalBirths(); // 1421, us_babynames_by_year: yob1905.csv
+		//pr.testTotalBirths(); 
+        //pr.testTotalBirths(); 
 		
-		//pr.QA_testGetRank();
-		//System.out.println(pr.getRank(1960, "Emily", "F")); // 251
-		//System.out.println(pr.getRank(1971, "Frank", "M")); // 54
+		//System.out.println(pr.getRank(1960, "Emily", "F")); 
+		//System.out.println(pr.getRank(1971, "Frank", "M")); 
 		
-		//pr.QB_testGetNameRank();
-		//System.out.println(pr.getName(1980, 350, "F")); // Mia
-		//System.out.println(pr.getName(1982, 450, "M")); // Forrest
+		//System.out.println(pr.getName(1980, 350, "F")); 
+		//System.out.println(pr.getName(1982, 450, "M")); 
 		
-		
-		//pr.QC_testWhatIsNameInYear();
-		//pr.whatIsNameInYear("Susan", 1972, 2014, "F"); // Addison
-		//pr.whatIsNameInYear("Owen",1974,2014,"M");     // Leonel
+		//pr.whatIsNameInYear("Susan", 1972, 2014, "F"); 
+		//pr.whatIsNameInYear("Owen",1974,2014,"M");     
 		 
-		//pr.QD_testYearOfHighestRank();
-		//System.out.println(pr.yearOfHighestRank("Genevieve", "F")); // 1914
-		//System.out.println(pr.yearOfHighestRank("Mich", "M")); // 1960
+		//System.out.println(pr.yearOfHighestRank("Genevieve", "F")); 
+		//System.out.println(pr.yearOfHighestRank("Mich", "M")); 
 		
-		//pr.QE_testGetAverageRank();
-		//System.out.println(pr.getAverageRank("Susan", "F")); // 173.51
-		//System.out.println(pr.getAverageRank("Robert", "M")); // 10.75
+		//System.out.println(pr.getAverageRank("Susan", "F")); 
+		//System.out.println(pr.getAverageRank("Robert", "M")); 
 		
-		
-        //pr.QF_testGetTotalBirthsRankedHigher();
-		//System.out.println(pr.getTotalBirthsRankedHigher(1990,"Emily","F")); // 323200
-		System.out.println(pr.getTotalBirthsRankedHigher(1990,"Drew","M")); // 1498074
+		//System.out.println(pr.getTotalBirthsRankedHigher(1990,"Emily","F")); 
+		System.out.println(pr.getTotalBirthsRankedHigher(1990,"Drew","M")); 
 
 
 	}
