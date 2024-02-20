@@ -219,7 +219,6 @@ public class babyNames {
 		babyNames pr = new babyNames();
 		
 		//pr.testTotalBirths(); 
-        //pr.testTotalBirths(); 
 		
 		//System.out.println(pr.getRank(1960, "Emily", "F")); 
 		//System.out.println(pr.getRank(1971, "Frank", "M")); 
