@@ -1,3 +1,3 @@
 # Java Programming: Solving Problems with Software
-by eclipse 
+IDE: eclipse 
 (Coursera - Java Programming and Software Engineering Fundamentals Specialization)
